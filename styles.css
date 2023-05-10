@@ -1,0 +1,145 @@
+body{
+    background-color: papayawhip;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+nav ul:nth-child(2){
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-right: 20px;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: solid;
+}
+
+nav{
+    background-color: darksalmon;
+}
+
+section{
+    text-align: center;
+    margin: 0 100px;
+    border-bottom: 1px solid salmon;
+    
+}
+.section-1{
+    margin-top: 40px;
+}
+.section-1 img{
+    width: 300px;
+}
+
+.section-2{
+    margin-top: 40px;
+}
+
+.section-2 img{
+    width: 200px;
+}
+ 
+.container-section-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.container-img{
+    display: block;
+}
+
+.img{
+    object-fit: cover;
+    border-radius: 10px;
+    height: 300px;
+}
+.section-3{
+    margin-top: 40px;
+}
+
+.section-4 img{
+    width: 300px;
+}
+.section-4{
+    margin-top: 40px;
+    border-bottom: none;
+}
+.container-team{
+    padding-top: 20px;
+    display: grid;
+    grid-template-rows: 400px 400px;
+    grid-template-columns: 50% 50% ;
+    grid-gap: 10px;
+}
+
+footer{
+    padding-top: 20px;
+    background: darksalmon;
+}
+
+.form {
+    text-align: center;
+}
+
+.container-inf-form{
+    display: inline-block;
+}
+
+.container-inf-form div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form label{
+    margin: 5px;
+}
+
+.form input{
+    width: 200px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    height: 20px;
+}
+
+.btn-send{
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+    background: papayawhip;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-send:hover{
+    background-color: white;
+    color:darksalmon;
+}
+
+.footer-inf{
+    border-top: 1px solid white;
+    margin-top: 10px;
+    padding: 20px 0 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-inf-2{
+    display: flex;
+    justify-content: center;
+}
+
